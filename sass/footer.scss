@@ -1,0 +1,62 @@
+.footer {
+    float: none;
+    clear: both;
+    background-color: rgb(15, 15, 15);
+    border-top: 1px solid white;
+}
+
+.social {
+    text-align: center;
+}
+.fa {
+    padding: 10px;
+    color: white;
+    transition: all .2s linear;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.fa-cc-paypal:hover {
+    color: #0099e5;
+}
+.fa-twitch:hover {
+    color: rgb(91, 36, 192);
+}
+.fa-steam-square:hover {
+    color: rgb(48, 48, 48);
+}
+.fa-twitter:hover {
+    color: rgb(0, 132, 180);
+}
+
+.fa-angle-double-up{
+  color: #286082;
+}
+
+.discord_logo {
+  width: 80px;
+  height: 80px;
+  margin-top: 10px;
+}
+
+.footerMenu ul {
+    list-style: none;
+    padding: 0;
+    font-family: 'Courier New', sans-serif;
+    color: white;
+    font-size: 1em;
+    text-align: center;
+}
+.footerMenu li {
+    display: inline-block;
+    padding: 20px 50px;
+}
+a.back-to-top {
+      cursor: pointer;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      display: none;
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+      border-radius: 30px;
+    }

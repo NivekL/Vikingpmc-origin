@@ -1,0 +1,40 @@
+.navbar-default {
+  background-color: rgba(29, 29, 29, 0.86);
+  border: none;
+}
+
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-default .navbar-nav > li {
+    display: inline-block;
+    float:none;
+    padding: 10px;
+    margin-left: 10px;
+
+    a{
+      font-size: 25px;
+      font-family: $roboto;
+      font-weight: 300;
+      color: #fff;
+      text-transform: uppercase;
+
+      &:focus{
+        color: #f1f1f1;
+      }
+      &:hover{
+        color: #bbbbbb;
+      }
+    }
+}
+
+@media (max-width: 550px) {
+  .navbar-default .navbar-nav > li {
+    display: block;
+  }
+
+}

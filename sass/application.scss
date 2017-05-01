@@ -1,0 +1,49 @@
+//APPLY SECTION
+.apply-section{
+background-color: #f7f7f7
+}
+
+.applyTitleSection{
+  padding-bottom: 50px;
+
+  .applyHeading{
+    font-family: $roboto;
+    font-weight: 700;
+    font-size: 45px;
+  }
+  .applySubHeading{
+    text-transform: none;
+  }
+}
+
+.applyFormSection{
+
+}
+// APPLY + INPUT FIELDS CUSTOM CSS
+.form-control{
+  height: 50px;
+  font-family: $roboto;
+}
+
+.form-group{
+  margin-bottom: 25px;
+}
+
+textarea.form-control {
+    height: 200px;
+  }
+
+  .signUp{
+    border-radius: 3px;
+    font-size: 25px;
+    font-family: $roboto;
+    padding: 15px 50px;
+    background-color: #424242;
+    color: #fff;
+    transition: all linear .2s;
+
+      &:hover{
+        color: #000;
+        background-color: #929292;
+      }
+    }
