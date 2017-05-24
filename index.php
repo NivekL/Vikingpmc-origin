@@ -204,15 +204,6 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
   </div>
 </section>
 
-<div id="discord" class="col-lg-12 text-center discord-title">
-  <h1>DISCORD</h1>
-</div>
-<section class="col-lg-12">
-	<iframe class="col-xs-12 col-lg-12 discordChatt"
-	src="https://discordapp.com/widget?id=243066813456318475&theme=dark"
-	width="350" height="800" allowtransparency="true" frameborder="0"></iframe>
-</section>
-
 <!--THE VIKING TOURNAMENT-->
 <div id="tournament" class="col-lg-12 text-center tournament-title">
   <h1>THE VIKING TOURNAMENT</h1>
