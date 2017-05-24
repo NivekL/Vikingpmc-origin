@@ -10,7 +10,7 @@
 }
 
 section {
-  padding: 100px 0;
+  padding: 60px 0;
 }
 
 //ABSTRACT TEXT
@@ -61,6 +61,11 @@ li{
 }
 
 #tournament{
+  padding: 50px 0;
+  background-color: #fff;
+}
+
+#discord{
   padding: 50px 0;
   background-color: #fff;
 }
@@ -145,4 +150,13 @@ li{
     list-style:none;
     margin-left: -40px;
     margin-top:20px;
+}
+
+
+// MEDIAQUERY
+@media (max-width: 1199px) {
+  .discordChatt{
+    z-index: 2;
+    margin-bottom: 160px;
+  }
 }

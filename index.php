@@ -158,11 +158,11 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
         <p>
 					<b>VIKING are Private Military Contractors</b>.
 					<br>
-					We're constantly hired by other units to help them out in different operations. On our spare time we fight on our dedicated server <i>(click read more)</i>
-					in private operations, Zeus-ops and Liberation games.<br>
+					Being a VIKING is hard work, we do what has to be done no matter the cost. But do not let this dishearten you,
+					beneath all the hardship of war there is also beauty to be found.
 					We provide you a chance to explore the world from the hottest deserts in the Middle East to the snowy mountains of northern Europe and all in-between.
 					<br><br>
-					<i>Join us every <b>TUESDAY and THURSDAY 19:00 CET/18:00 GMT</b> for your mission brief and make sure to gear up soldier, because we have work to do.</i>
+					<i>Join us every <b>Tuesday and Thursday 19:00 CET</b> for your mission brief and make sure to gear up soldier, because we have work to do.</i>
 				</p>
         <button id="btnReadMore" type="button" name="button" onclick="openNavOperation()">READ MORE</button>
       </div>
@@ -202,6 +202,15 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
       </div>
     </div>
   </div>
+</section>
+
+<div id="discord" class="col-lg-12 text-center discord-title">
+  <h1>DISCORD</h1>
+</div>
+<section class="col-lg-12">
+	<iframe class="col-xs-12 col-lg-12 discordChatt"
+	src="https://discordapp.com/widget?id=243066813456318475&theme=dark"
+	width="350" height="800" allowtransparency="true" frameborder="0"></iframe>
 </section>
 
 <!--THE VIKING TOURNAMENT-->
@@ -274,6 +283,8 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 	</div>
 </section>
 
+
+
 <!--GOT WHAT IT TAKES TO JOIN VIKING-->
 <section id="apply" class="apply-section col-lg-12">
     <div class="container">
@@ -344,16 +355,11 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 					</a>
           <h2>MISSIONS</h2>
           <p>
-						<b>Private operations: </b>On our spare time we make sure to hone our skills in our dedicated server. We host different types of scenarios to help our soldiers with strategy, critical thinking and communication.
-							<br><b>IP: 77.161.37.153:2362
-							<br>PW: <i style="filter: blur(6px)">ask one of our admins!</i></b><br><br>
-						<b>Joint operations: </b>Being a PMC means that we are asked to do fighting for others.
-						We are often hired by different units to help them secure, destroy or stabilize points of interest in different parts of the world.
-						Joint-operations is a great way to learn new strategies, types of combat and meet new friends.<br><br>
-						<b>Campaigns: </b>With over 25 campaign missions and more to come, this is what we have specialized in over the years.
+						With over 25 campaign missions and more to come, this is what we have specialized in over the years.
 						With the help of our talented developers we’ve made sure that every campaign feels unique and offers new challenges for each individual.
-						<br>
-						<u><a id="linkText" target="_blank" href="http://steamcommunity.com/sharedfiles/filedetails/?id=681486800">Click here to download our campaigns.</a></u>
+						<br><br>
+						<u><a id="linkText" target="_blank" href="http://steamcommunity.com/sharedfiles/filedetails/?id=681486800">Click here to download our campaigns.</a></u>.
+
           </p>
         </div>
 
@@ -363,16 +369,14 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 						<i class="fa fa-download fa-5x center" style="color: black" aria-hidden="true"></i>
 					</a>
           </div>
-          <h2>MODS & ARSENAL</h2>
+          <h2>MODS</h2>
           <p>
-						<b>Mods: </b>To enhance realism and to challenge the player we make use of mods.
+						To enhance realism and to challenge the player we make use of mods.
 						We have carefully selected mods that revamps certain gameplay mechanics to our pleasing,
 						these are universal over most of our campaigns to make sure that you do not have to switch mods or
 						suffer through a thousand updates and incompabilities.
-						<br>
-						<u><a id="linkText" target="_blank" href="http://steamcommunity.com/sharedfiles/filedetails/?id=659777460">Click here to download the mods.</a></u><br><br>
-						<b>Arsenal: </b>We have created base outfits for the different roles we have. We urge you to download the .rar file and import the loadouts to your arsenal.<br>
-						<u><a id="linkText" target="_blank" href="https://drive.google.com/open?id=0B2SlNOj2rYVCZjJnbDNiUDdnVTA">Click here to download the roles.</a></u><br><br>
+						<br><br>
+						<u><a id="linkText" target="_blank" href="http://steamcommunity.com/sharedfiles/filedetails/?id=659777460">Click here to download the mods.</a></u>
           </p>
         </div>
         <div class="col-lg-4">
@@ -383,8 +387,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
           <p>
             Weekly mission OP's are held every
 						<br>
-						<b>TUESDAY</b> and <b>THURSDAY</b> at
-						<br><b>19:00 CET</b>/<b>18:00 GMT</b>
+						<b>TUESDAY</b> and <b>THURSDAY</b> at <br><b>19:00 CENTRAL EUROPEAN TIME (CET)</b>.
           </p>
         </div>
       </div>
@@ -463,42 +466,35 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
           <p>
 						Like every group, there is a hierarchy we follow to make it easier for the members to know who to turn to and easier for us to give out orders.
 						<br><br>
-						<b>Admin</b>, are the highest ranked members of the group. They make sure that every operation and tournament works as planned.
-						<b>Moderators</b>, are the second highest ranked members of the group.
-						They assist Admins in their daily work and are in charge of keeping things clean and friendly while out in the field of battle or in our chat.
-						<b>HQ</b>, are the third highest ranking members of our group who helps organization of different operations and communicate with people in our Discord.
-						<br><br>
+						<b>Administrators</b>, also known as Jarls are the highest ranked members of the group. They make sure that every operation and tournament works as planned.
+						<br>
+						<b>Moderators</b>, also known as Karls are the second highest ranked members of the group. They assist Jarls in their daily work and are in charge of keeping things clean and friendly while out in the field of battle or in our chat.
+						<br>
 						<i>Hover over the images to view names and rank. You can also click the avatars to nagivate to their Steam profiles.</i>
 						<br><br>
-						<b><i>Send any question, suggestion or idea to us by filling out the form down below.</i></b>
+						<i>Send any question, suggestion or idea to us by filling out the form down below.</i>
 					</p>
         </div>
 				<div class="col-lg-6" id="slider-thumbs">
 						<div class="col-lg-12">
 							<div class="row">
 								<ul class="hide-bullets">
-									<!--Bane-->
-										<li class="col-lg-3" data-toggle="tooltip" data-placement="top" data-html="true" title="<h3>Bane</h3><h4>Founder</h4>">
+									<!--Wardaddy-->
+										<li class="col-lg-4" data-toggle="tooltip" data-placement="top" data-html="true" title="<h3>Bane</h3><h4>President</h4>">
 												<a target="_blank" href="http://steamcommunity.com/profiles/76561198044162606">
-														<img src="http://cdn.edgecast.steamstatic.com/steamcommunity/public/images/avatars/55/55e14010ec82dc075cbcfa07a6c80c01709ea793_full.jpg" class="img-rounded img-thumbnail">
+														<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/b4/b419fa42475f08869a1fce8307b4cd0a22c1b5f2_full.jpg" class="img-rounded img-thumbnail">
 												</a>
 										</li>
-										<!--Havok-->
-										<li class="col-lg-3" data-toggle="tooltip" data-placement="top" data-html="true" title="<h3>Havok</h3><h4>Administrator</h4>">
-											<a target="_blank" href="http://steamcommunity.com/profiles/76561197996326460">
-													<img src="http://cdn.edgecast.steamstatic.com/steamcommunity/public/images/avatars/c7/c787d7b5a74f7ecf65e79ec32bd933f6f7980db4_full.jpg" class="img-rounded img-thumbnail">
-											</a>
-										</li>
 										<!--Gen-->
-											<li class="col-lg-3" data-toggle="tooltip" data-placement="top" data-html="true" title="<h3>TheGeneral</h3><h4>Moderator</h4>">
+											<li class="col-lg-4" data-toggle="tooltip" data-placement="top" data-html="true" title="<h3>TheGeneral</h3><h4>Administrator</h4>">
 												<a target="_blank" href="http://steamcommunity.com/profiles/76561197961489650">
 														<img src="http://cdn.edgecast.steamstatic.com/steamcommunity/public/images/avatars/32/328a7afdc3d5eaeba8562a62da21d99c50021ec0_full.jpg" class="img-rounded img-thumbnail">
 												</a>
 											</li>
-											<!--Paulo-->
-											<li class="col-lg-3" data-toggle="tooltip" data-placement="top" data-html="true" title="<h3>Paulo</h3><h4>Moderator</h4>">
-												<a target="_blank" href="http://steamcommunity.com/profiles/76561198068539881">
-														<img src="http://cdn.edgecast.steamstatic.com/steamcommunity/public/images/avatars/d2/d24766de721c8cd114d3a57ae830439638987c23_full.jpg" class="img-rounded img-thumbnail">
+											<!--Dep-->
+											<li class="col-lg-4" data-toggle="tooltip" data-placement="top" data-html="true" title="<h3>DeputyDawg</h3><h4>Moderator</h4>">
+												<a target="_blank" href="http://steamcommunity.com/profiles/76561198043139108">
+														<img src="http://cdn.edgecast.steamstatic.com/steamcommunity/public/images/avatars/ea/ea304b11312956319a6f2db8661a45f9340bef7d_full.jpg" class="img-rounded img-thumbnail">
 												</a>
 											</li>
 								</ul>
@@ -507,25 +503,23 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 						<div class="col-lg-12">
 							<div class="row">
 								<ul class="hide-bullets">
-									<!--Dep-->
-									<li class="col-lg-3" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<h3>DeputyDawg</h3><h4>HQ</h4>">
-										<a target="_blank" href="http://steamcommunity.com/profiles/76561198043139108">
-												<img src="http://cdn.edgecast.steamstatic.com/steamcommunity/public/images/avatars/ea/ea304b11312956319a6f2db8661a45f9340bef7d_full.jpg" class="img-rounded img-thumbnail">
+									<!--Havok-->
+									<li class="col-lg-4" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<h3>Havok</h3><h4>Vice President</h4>">
+										<a target="_blank" href="http://steamcommunity.com/profiles/76561197996326460">
+												<img src="http://cdn.edgecast.steamstatic.com/steamcommunity/public/images/avatars/c7/c787d7b5a74f7ecf65e79ec32bd933f6f7980db4_full.jpg" class="img-rounded img-thumbnail">
 										</a>
 									</li>
-									<!--Winter-->
-									<li class="col-lg-3" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<h3>Winters</h3><h4>HQ</h4>">
-										<a target="_blank" href="http://steamcommunity.com/profiles/76561198000470633">
-												<img src="http://cdn.edgecast.steamstatic.com/steamcommunity/public/images/avatars/9c/9c51148ea5ab65993d0e54e26b200115584bc850_full.jpg" class="img-rounded img-thumbnail">
+									<!--Paulo-->
+									<li class="col-lg-4" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<h3>Paulo</h3><h4>Administrator</h4>">
+										<a target="_blank" href="http://steamcommunity.com/profiles/76561198068539881">
+												<img src="http://cdn.edgecast.steamstatic.com/steamcommunity/public/images/avatars/d2/d24766de721c8cd114d3a57ae830439638987c23_full.jpg" class="img-rounded img-thumbnail">
 										</a>
 									</li>
 										<!--Hump-->
-										<li class="col-lg-3" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<h3>DoTheHump</h3><h4>HQ</h4>">
+										<li class="col-lg-4" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<h3>DoTheHump</h3><h4>Moderator</h4>">
 											<a target="_blank" href="http://steamcommunity.com/profiles/76561198060784160">
 													<img src="http://cdn.edgecast.steamstatic.com/steamcommunity/public/images/avatars/2a/2a6c856fa26f6dd9eec949be9a169ff9d3374186_full.jpg" class="img-rounded img-thumbnail">
 											</a>
-										</li>
-										<li class="col-lg-3" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<h3>Empty</h3><h4>HQ</h4>">
 										</li>
 								</ul>
 							</div>
