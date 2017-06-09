@@ -7,7 +7,7 @@
 		$human = intval($_POST['human']);
 		$from = 'Vikingpmc Apply form';
 		$to = 'vikingpmc1@gmail.com';
-		$subject = 'VIKING application';
+		$subject = 'VIKING membership form';
 
 		$body ="From: $name\n E-Mail: $email\n Message: \n$message";
 		// Check if name has been entered
@@ -49,7 +49,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 		$human = intval($_POST['human3']);
 		$from = 'Vikingpmc Apply form';
 		$to = 'vikingpmc1@gmail.com';
-		$subject = 'VIKING application';
+		$subject = 'Tournament apply form';
 
 		$body ="From: $name\n E-Mail: $email\n Message: \n$message";
 		// Check if name has been entered
@@ -58,7 +58,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 		}
 
 		// Check if email has been entered and is valid
-		if (!$_POST['email3'] || !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
+		if (!$_POST['email3'] || !filter_var($_POST['email3'], FILTER_VALIDATE_EMAIL)) {
 			$errEmail = 'Please enter a valid email address';
 		}
 
@@ -91,7 +91,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 		$human = intval($_POST['human2']);
 		$from = 'Vikingpmc Apply form';
 		$to = 'vikingpmc1@gmail.com';
-		$subject = 'VIKING application';
+		$subject = 'VIKING contact form';
 
 		$body ="From: $name\n E-Mail: $email\n Message: \n$message";
 		// Check if name has been entered
@@ -100,7 +100,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 		}
 
 		// Check if email has been entered and is valid
-		if (!$_POST['email2'] || !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
+		if (!$_POST['email2'] || !filter_var($_POST['email2'], FILTER_VALIDATE_EMAIL)) {
 			$errEmail = 'Please enter a valid email address';
 		}
 
