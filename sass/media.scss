@@ -1,0 +1,42 @@
+@media screen and (max-width: 875px) {
+  #infoBox{
+    padding: 0 15px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  h1{
+    font-size: 40px;
+  }
+  .about-section{
+    padding: 10px 15px;
+  }
+  .applyTitleSection .applyHeading{
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  h2{
+    font-size: 34px;
+  }
+  .applyTitleSection .applyHeading{
+    font-size: 40px;
+  }
+  a.back-to-top .fa-angle-double-up{
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 347px) {
+  h1{
+    font-size: 35px;
+  }
+  h2{
+    font-size: 28px;
+  }
+  .applyTitleSection .applyHeading{
+    font-size: 40px;
+  }
+}

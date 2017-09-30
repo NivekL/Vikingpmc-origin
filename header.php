@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="VIKING PMC is a ArmA 3 unit, focusing on semi-realism. Hosting joint operations and tournaments with prize pools."/>
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <link rel="icon" href="images/vikingLogo.png" type="image/png" sizes="16x16">
     <title>VIKING PMC</title>

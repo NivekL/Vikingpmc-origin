@@ -5,7 +5,7 @@
 		$email = $_POST['email'];
 		$message = $_POST['message'];
 		$human = intval($_POST['human']);
-		$from = 'Vikingpmc Apply form';
+		$from = 'Vikingpmc membership form';
 		$to = 'vikingpmc1@gmail.com';
 		$subject = 'VIKING membership form';
 
@@ -47,7 +47,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 		$email = $_POST['email3'];
 		$message = $_POST['message3'];
 		$human = intval($_POST['human3']);
-		$from = 'Vikingpmc Apply form';
+		$from = 'Tournament apply form';
 		$to = 'vikingpmc1@gmail.com';
 		$subject = 'Tournament apply form';
 
@@ -89,9 +89,9 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 		$email = $_POST['email2'];
 		$message = $_POST['message2'];
 		$human = intval($_POST['human2']);
-		$from = 'Vikingpmc Apply form';
+		$from = 'Vikingpmc contact form';
 		$to = 'vikingpmc1@gmail.com';
-		$subject = 'VIKING contact form';
+		$subject = 'Vikingpmc contact form';
 
 		$body ="From: $name\n E-Mail: $email\n Message: \n$message";
 		// Check if name has been entered
@@ -150,7 +150,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 <section id="about" class="about-section col-lg-12">
   <div class="firstColWrapper">
     <div class="row">
-      <div class="col-lg-4">
+      <div class="col-md-4">
         <div class="center">
           <i class="fa fa-globe fa-5x center" style="color: black" aria-hidden="true"></i>
         </div>
@@ -158,15 +158,15 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
         <p>
 					<b>VIKING are Private Military Contractors</b>.
 					<br>
-					We're constantly hired by other units to help them out in different operations. On our spare time we fight on our dedicated server <i>(click read more)</i>
+					We're constantly hired by other units to help them out on different operations. In our spare time we fight on our dedicated server <i>(click read more)</i>
 					in private operations, Zeus-ops and Liberation games.<br>
-					We provide you a chance to explore the world from the hottest deserts in the Middle East to the snowy mountains of northern Europe and all in-between.
+					We provide you a chance to explore the world. From the hottest deserts in the Middle East to the snowy mountains of northern Europe.
 					<br><br>
 					<i>Join us every <b>TUESDAY and THURSDAY 19:00 CET/18:00 GMT</b> for your mission brief and make sure to gear up soldier, because we have work to do.</i>
 				</p>
         <button id="btnReadMore" type="button" name="button" onclick="openNavOperation()">READ MORE</button>
       </div>
-      <div class="col-lg-4">
+      <div class="col-md-4">
         <div class="center">
           <i class="fa fa-microphone fa-5x center" style="color: black" aria-hidden="true"></i>
         </div>
@@ -174,15 +174,15 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
         <p>
 					<b>Good communication tools are the key to success.</b>
 					<br>
-					We provide several types of tools and programs to make sure that you are able to contact us at any time.
-					For text communications we make use of <a target="_blank" href="https://discord.gg/v9EV4w4"><u><b>Discord</b></u></a>, here you’ll be able to chat with any member of our group at any time.
+					We provide several tools and programs to make sure that you are able to contact us at any time.
+					For text communications we make use of <a target="_blank" href="https://discord.gg/v9EV4w4"><u><b>Discord</b></u></a>, here you’ll be able to chat with any member of our group.
 					When doing operations we have our own <a href="ts3server:vikingpmc.ts3ip.com?port=10074"><u><b>Teamspeak</b></u></a> channel with more than enough slots.
 					Last but not least, we also have a <a target="_blank" href="http://steamcommunity.com/groups/VIKINGPMC"><u><b>Steam</b></u></a> group where you can get a hold of any member or even post forum announcements.
         </p>
 				<br>
         <button id="btnReadMore" type="button" name="button" onclick="openNavCommunication()">READ MORE</button>
       </div>
-      <div class="col-lg-4">
+      <div class="col-md-4">
         <div class="center">
           <i class="fa fa-info-circle fa-5x center" style="color: black" aria-hidden="true"></i>
         </div>
@@ -190,88 +190,17 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
         <p>
 					<b>We are always available.</b>
 					<br>
-					We believe strongly in good communication, you will be able to find us on Discord at any time of the day.
-					If you by any chance have an idea, a complaint or a matter of importance,
-					we implore you to use our contact form by sending us an email.
+					We strongly believe in good communication, and if you need us at anytime there's always one HQ member available in our discord.
+					If you by any chance have an idea, a complaint or a matter of importance, we implore you to use our contact form by sending us an email.
 					This is a guaranteed way of getting a response.
 					<br><br>
 					Press the button below to view the contact us-form.
         </p>
-				<br><br>
+				<br>
         <button id="btnReadMore" type="button" name="button" onclick="openNavContact()">CONTACT US</button>
       </div>
     </div>
   </div>
-</section>
-
-<!--THE VIKING TOURNAMENT-->
-<div id="tournament" class="col-lg-12 text-center tournament-title">
-  <h1>THE VIKING TOURNAMENT</h1>
-		<h3 id="vikingMotto">#VKNTOURNAMENT</h3>
-</div>
-<section id="tournament" class="tournament-section col-lg-12">
-			<div class="col-lg-12" id="infoBox">
-				<h2>INFORMATION</h2>
-				<p>
-					<b>The VIKING tournament gives your group the chance to help the community and kick some ass!</b>
-					<br>
-					We all like the custom mission which our groups may play, but from time to time we love some PVP action!
-					We thought why not combine the 2 elements to create a dynamic milsim environment with some healthy competitiveness.
-					That is exactly what we did! And we would love you to be part of it! The whole event is of course streamed on our <a class="linkText" href="https://www.twitch.tv/vknpmc" target="_blank">official Twitch channel.</a>
-				</p>
-			</div>
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-6">
-						<h2>DETAILS</h2>
-						<p>
-							1)	Kickoff - June 17th - 19:00 CET (Central European Time)
-							<br>
-							2) 8v8 - Team vs Team
-							<br>
-							3) Custom made PvP maps
-							<br>
-							4) Limited to 10 teams/squads
-							<br>
-							5) First Person Locked
-							<br>
-							6) Prize Pool: $50
-							<br>
-							7) Twitch / Teamspeak / Hosted Servers
-							<br>
-							8) Mods: Task Force Radio / ShackTac / CBA_A3 / CUP
-						</p>
-					</div>
-					<div class="col-lg-6">
-						<h2>MODS & MAPS</h2>
-						<p>
-							You’ll be needing four mods to be able to play. <i>CBA, ShackTac, CUP and TFAR</i>, that’s it!
-							You’ll be able to find the maps and mods on our Steam collection.
-							<br><br>
-							<u><a class="linkText" target="_blank" href="http://steamcommunity.com/workshop/filedetails/?id=853979345">Download maps here!</a></u><br>
-							<u><a class="linkText" target="_blank" href="http://steamcommunity.com/sharedfiles/filedetails/?id=871819348">Download mods here!</a></u>
-						</p>
-					</div>
-				</div>
-			</div>
-
-	<div class="container paddingTop">
-		<h2>TRAILER - SEASON 3 COMING SOON</h2>
-		<div class="embed-responsive embed-responsive-16by9">
-			<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mShelBULMO0"></iframe>
-		</div>
-
-		<iframe class="col-xs-12 col-lg-12 scoreboard" height="600"
-		src="https://widget.toornament.com/tournaments/58a4d450150ba032698b459a/stages/1?_locale=en_GB&theme=light"
-		frameborder="0" scrolling="false" allowfullscreen="true">
-		</iframe>
-	</div>
-
-
-
-	<div class="center paddingTop">
-		<button class="btnTournament" type="button" name="button" onclick="openNavTournament()">JOIN TOURNAMENT</button>
-	</div>
 </section>
 
 <!--GOT WHAT IT TAKES TO JOIN VIKING-->
@@ -279,7 +208,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
     <div class="container">
             <div class="row">
               <div class="col-lg-12 text-center applyTitleSection">
-                <h2 class="applyHeading">Got what it takes to join VIKING?</h2>
+                <h2 class="applyHeading">Got what it takes to be a VIKING?</h2>
                 <h2 class="applySubHeading">Sign here to find out</h2>
             </div>
             </div>
@@ -328,6 +257,77 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
     </div>
 </section>
 
+<!--THE VIKING TOURNAMENT-->
+<div id="tournament" class="col-lg-12 text-center tournament-title">
+  <h1>THE VIKING TOURNAMENT</h1>
+		<h3 id="vikingMotto">#VKNTOURNAMENT</h3>
+</div>
+<section id="tournament" class="tournament-section col-lg-12">
+			<div class="col-lg-12" id="infoBox">
+				<h2>INFORMATION</h2>
+				<p>
+					<b>The VIKING tournament gives your group the chance to help the community and kick some ass!</b>
+					<br>
+					We all like the custom mission which our groups may play, but from time to time we love some PVP action!
+					We thought why not combine the 2 elements to create a dynamic milsim environment with some healthy competitiveness.
+					That is exactly what we did! And we would love you to be part of it! The whole event is of course streamed on our <a class="linkText" href="https://www.twitch.tv/vknpmc" target="_blank">official Twitch channel.</a>
+				</p>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+						<h2>DETAILS</h2>
+						<p>
+							1)	Kickoff - June 17th - 19:00 CEST (Central European Summer Time)
+							<br>
+							2) 8v8 - Team vs Team
+							<br>
+							3) Custom made PvP maps
+							<br>
+							4) Limited to 8 teams/squads
+							<br>
+							5) First Person Locked
+							<br>
+							6) Prize Pool: $50
+							<br>
+							7) Twitch / Teamspeak / Hosted Servers
+							<br>
+							8) Mods: Task Force Radio / ShackTac / CBA_A3 / CUP
+						</p>
+					</div>
+					<div class="col-lg-6">
+						<h2>MODS & MAPS</h2>
+						<p>
+							You’ll be needing four mods to be able to play. <i>CBA, ShackTac, CUP and TFAR</i>, that’s it!
+							You’ll be able to find the maps and mods on our Steam collection.
+							<br><br>
+							<u><a class="linkText" target="_blank" href="http://steamcommunity.com/sharedfiles/filedetails/?id=933455096">Download maps/mods here!</a></u><br>
+						</p>
+					</div>
+				</div>
+			</div>
+
+	<div class="container paddingTop">
+		<h2>TRAILER - SEASON 3 COMING SOON</h2>
+		<div class="embed-responsive embed-responsive-16by9">
+			<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mShelBULMO0"></iframe>
+		</div>
+
+		<iframe class="col-xs-12 col-lg-12 scoreboard" height="600"
+		src="https://widget.toornament.com/tournaments/471798638134181888/navigator?_locale=en_US&theme=light"
+		frameborder="0" scrolling="false" allowfullscreen="true">
+		</iframe>
+	</div>
+
+
+
+	<div class="center paddingTop">
+		<button class="btnTournament" type="button" name="button" onclick="openNavTournament()">JOIN TOURNAMENT</button>
+	</div>
+</section>
+
+
+
 <!--SIDE NAV, OWN FILE-->
 <!--SIDENAV OPERATIONS-->
 <div id="operationsNav" class="sidenav">
@@ -338,17 +338,18 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
   <section id="about" class="about-section col-lg-12">
     <div class="firstColWrapper">
       <div class="row">
-        <div class="col-lg-4">
+        <div class="col-md-4">
 					<a target="_blank" href="http://steamcommunity.com/sharedfiles/filedetails/?id=681486800">
             <i class="fa fa-info-circle fa-5x center" style="color: black" aria-hidden="true"></i>
 					</a>
           <h2>MISSIONS</h2>
           <p>
-						<b>Private operations: </b>On our spare time we make sure to hone our skills in our dedicated server. We host different types of scenarios to help our soldiers with strategy, critical thinking and communication.
-							<br><b>IP: 77.161.37.153:2362
+						<b>Private operations: </b>In our spare time we make sure to hone our skills on our dedicated server. We host different scenarios to help our soldiers with strategy, critical thinking, and communication.
+						Our goal is for every member to be confident in handling any situation.
+							<br><b>IP: 108.61.112.143:2302
 							<br>PW: <i style="filter: blur(6px)">ask one of our admins!</i></b><br><br>
-						<b>Joint operations: </b>Being a PMC means that we are asked to do fighting for others.
-						We are often hired by different units to help them secure, destroy or stabilize points of interest in different parts of the world.
+						<b>Joint operations: </b>Being a PMC means that we are contracted to fight for others.
+						We are hired by different units to help them secure, destroy or stabilize points of interest and provide civilian security all over the world.
 						Joint-operations is a great way to learn new strategies, types of combat and meet new friends.<br><br>
 						<b>Campaigns: </b>With over 25 campaign missions and more to come, this is what we have specialized in over the years.
 						With the help of our talented developers we’ve made sure that every campaign feels unique and offers new challenges for each individual.
@@ -357,7 +358,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
           </p>
         </div>
 
-        <div class="col-lg-4">
+        <div class="col-md-4">
           <div class="center">
 					<a target="_blank" href="http://steamcommunity.com/sharedfiles/filedetails/?id=659777460">
 						<i class="fa fa-download fa-5x center" style="color: black" aria-hidden="true"></i>
@@ -366,16 +367,16 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
           <h2>MODS & ARSENAL</h2>
           <p>
 						<b>Mods: </b>To enhance realism and to challenge the player we make use of mods.
-						We have carefully selected mods that revamps certain gameplay mechanics to our pleasing,
-						these are universal over most of our campaigns to make sure that you do not have to switch mods or
-						suffer through a thousand updates and incompabilities.
+						We have carefully selected mods that revamps certain gameplay mechanics to our pleasing.
+						These are universal across our campaigns to ensure compatibility for our members.
 						<br>
 						<u><a id="linkText" target="_blank" href="http://steamcommunity.com/sharedfiles/filedetails/?id=659777460">Click here to download the mods.</a></u><br><br>
-						<b>Arsenal: </b>We have created base outfits for the different roles we have. We urge you to download the .rar file and import the loadouts to your arsenal.<br>
+						<b>Arsenal: </b>We have created base outfits for the different roles we have. We urge you to download the .rar file and import the loadouts to your arsenal.
+						The main issue here is making sure you have the correct basic gear when we’re on operations, but just head into a game with us and we’ll talk you through it.<br>
 						<u><a id="linkText" target="_blank" href="https://drive.google.com/open?id=0B2SlNOj2rYVCZjJnbDNiUDdnVTA">Click here to download the roles.</a></u><br><br>
           </p>
         </div>
-        <div class="col-lg-4">
+        <div class="col-md-4">
           <div class="center">
             <i class="fa fa-calendar fa-5x center" style="color: black" aria-hidden="true"></i>
           </div>
@@ -401,7 +402,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
   <section id="about" class="about-section col-lg-12">
     <div class="secondColWrapper">
       <div class="row">
-        <div class="col-lg-4">
+        <div class="col-md-4">
           <div class="center">
 					<a href="ts3server:vikingpmc.ts3ip.com?port=10074">
             <i class="fa fa-headphones fa-5x center" style="color: black" aria-hidden="true"></i>
@@ -409,14 +410,14 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
           </div>
           <h2>TEAMSPEAK</h2>
           <p>
-						<b>We belive in good communication.</b> To achive this we put our money where our mouth is and make use of Teamspeak.
+						<b>We belive in good communication.</b> To achieve this we put our money where our mouth is and make use of Teamspeak.
 						An added bonus is that we are able to easily coordinate bigger events with multiple players without any technical hiccups.
-						Another reason is that one of our primary mods Task Force Radio is heavily reliant on TeamSpeak.
+						Another reason is that one of our primary mods, Task Force Radio, is heavily reliant on TeamSpeak.
 						<br><br>
 						<a id="linkText" href="ts3server:vikingpmc.ts3ip.com?port=10074"><u>Click to open TeamSpeak: vikingpmc.ts3ip.com</u></a>
           </p>
         </div>
-        <div class="col-lg-4">
+        <div class="col-md-4">
           <div class="center">
 					<a target="_blank" href="https://discord.gg/v9EV4w4">
             <i class="fa fa-commenting fa-5x center" style="color: black" aria-hidden="true"></i>
@@ -424,13 +425,14 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
           </div>
           <h2>DISCORD</h2>
           <p>
-						One of the fastest growing voice/chat platforms out there is of course something we want to make use of. Discord is super easy to setup and get going. We believe that this is the best tool for the job when coordination and announcements are to be made.
+						One of the fastest growing voice/chat platforms out there is of course something we want to make use of.
+						Discord is super easy to set up and get going. We believe that this is the best tool for the job when coordination and announcements are to be made.
 						In our Discord server you will find a couple of channels for members, tournament attendees and other discussions.
 						<br><br>
 						<a id="linkText" target="_blank" href="https://discord.gg/v9EV4w4"><u>Click here to join our Discord.</u></a>
           </p>
         </div>
-        <div class="col-lg-4">
+        <div class="col-md-4">
           <div class="center">
 					<a target="_blank" href="http://steamcommunity.com/groups/VIKINGPMC">
             <i class="fa fa-steam-square fa-5x center" style="color: black" aria-hidden="true"></i>
@@ -461,14 +463,15 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
         <div class="col-lg-6">
           <h2>ADMINS & MODERATORS</h2>
           <p>
-						Like every group, there is a hierarchy we follow to make it easier for the members to know who to turn to and easier for us to give out orders.
+						Like every group, there is the hierarchy we follow to make it easier for the members to know who to turn to.
 						<br><br>
-						<b>Admin</b>, are the highest ranked members of the group. They make sure that every operation and tournament works as planned.
-						<b>Moderators</b>, are the second highest ranked members of the group.
-						They assist Admins in their daily work and are in charge of keeping things clean and friendly while out in the field of battle or in our chat.
-						<b>HQ</b>, are the third highest ranking members of our group who helps organization of different operations and communicate with people in our Discord.
+						<b>Admin</b> are the highest ranked members of the group, they make sure that every operation and tournament works as planned.
+						<b>Moderators</b> are the second highest ranked members of the group,
+						they assist Admins in their daily work and are in charge of keeping things
+						clean and friendly while out in the field of battle or in our chat.
+						<b>HQ</b> are the third highest ranking members of our group, they help with the organization of different operations and communicate with people in our Discord.
 						<br><br>
-						<i>Hover over the images to view names and rank. You can also click the avatars to nagivate to their Steam profiles.</i>
+						<i>Hover over the images to view names and rank. You can also click the avatars to navigate to their Steam profiles.</i>
 						<br><br>
 						<b><i>Send any question, suggestion or idea to us by filling out the form down below.</i></b>
 					</p>
@@ -519,12 +522,6 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 												<img src="http://cdn.edgecast.steamstatic.com/steamcommunity/public/images/avatars/9c/9c51148ea5ab65993d0e54e26b200115584bc850_full.jpg" class="img-rounded img-thumbnail">
 										</a>
 									</li>
-										<!--Hump-->
-										<li class="col-lg-3" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<h3>DoTheHump</h3><h4>HQ</h4>">
-											<a target="_blank" href="http://steamcommunity.com/profiles/76561198060784160">
-													<img src="http://cdn.edgecast.steamstatic.com/steamcommunity/public/images/avatars/2a/2a6c856fa26f6dd9eec949be9a169ff9d3374186_full.jpg" class="img-rounded img-thumbnail">
-											</a>
-										</li>
 										<!--Alliaz-->
 										<li class="col-lg-3" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<h3>Alliaz</h3><h4>HQ</h4>">
 											<a target="_blank" href="http://steamcommunity.com/profiles/76561197997186254/">
