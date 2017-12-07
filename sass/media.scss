@@ -40,3 +40,14 @@
     font-size: 40px;
   }
 }
+
+@media screen and (max-width: 1025px) {
+  #bgvid{
+    /*background-image: url("images/video/Viking-still.png");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;*/
+    display: none;
+  }
+}

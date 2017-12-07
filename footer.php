@@ -1,18 +1,15 @@
-<!--FOOTER-->
 <footer class="footer">
 <div class="container">
         <div class="col-md-12 center">
-          <a target="_blank" href="http://paypal.me/VIKINGWARDADDY"><i class="fa fa-cc-paypal fa-5x" aria-hidden="true"></i></a>
+          <a target="_blank" href="https://www.youtube.com/channel/UCNMOVPNUAbfb-ujFjeitbUw"><i class="fa fa-youtube-square fa-5x" aria-hidden="true"></i></a>
           <a target="_blank" href="https://www.twitch.tv/vknpmc"><i class="fa fa-twitch fa-5x" aria-hidden="true"></i></a>
           <a target="_blank" href="https://twitter.com/VKNPMC"><i class="fa fa-twitter fa-5x" aria-hidden="true"></i></a>
+          <a target="_blank" href="https://steamcommunity.com/groups/VIKINGPMC"><i class="fa fa-steam-square fa-5x" aria-hidden="true"></i></a>
         </div>
 </div>
     <a href="#" class="back-to-top"><i class="fa fa-angle-double-up fa-4x" style="color:black" aria-hidden="true"></i></a>
 
 </footer>
-
-
-
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://use.fontawesome.com/d74b8e18b3.js"></script>
@@ -25,5 +22,4 @@
 <script src="js/event.js"></script>
 <script src="js/tooltip.js"></script>
 </body>
-
 </html>

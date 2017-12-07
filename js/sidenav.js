@@ -31,3 +31,11 @@ function openNavTournament() {
 function closeNavTournament() {
     document.getElementById("tournamentNav").style.width = "0";
 }
+
+function openNavMembers() {
+    document.getElementById("membersNav").style.width = "100%";
+}
+
+function closeNavMembers() {
+    document.getElementById("membersNav").style.width = "0";
+}

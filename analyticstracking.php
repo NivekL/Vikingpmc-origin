@@ -6,9 +6,4 @@
 
   ga('create', 'UA-92627017-1', 'auto');
   ga('send', 'pageview');
-
 </script>
-
-
-<!--Use the code above to create a file named "analyticstracking.php", and include the file on each PHP template page.
-Add the following line to each template page immediately after the opening <body> tag:-->
