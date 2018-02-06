@@ -1,5 +1,5 @@
-<?php include 'phpPages\sideNav\operations.php' ?>
-<?php include 'phpPages\sideNav\communication.php' ?>
+<?php include 'sideNav/operations.php' ?>
+<?php include 'sideNav/communication.php' ?>
 
 <div class="firstColWrapper">
   <div class="row">
@@ -35,13 +35,13 @@
 
     <div class="col-md-4">
       <div class="center">
-        <i class="fa fa-info-circle fa-5x center" style="color: black" aria-hidden="true"></i>
+        <img src="images\discord_logo.png" height="90" width="90">
       </div>
       <center><h2>Contact us</h2></center>
       <p>
         <b>We are always available.</b>
         <br>
-        We strongly believe in good communication, and if you need us at anytime there's always one HQ member available in our discord.
+        We strongly believe in good communication. Forums are so 2001. Discord is the new beast on the market. If you want to contact us, join our Discord and one of our staff will be in contact with you.
       </p>
     </div>
     <!--<div class="col-md-3">
@@ -74,10 +74,10 @@
     <!--<div class="col-md-3">
       <button id="btnReadMore" type="button" name="button" onclick="openNavMembers()">View members</button>
       <div class=""><br>
-        <?php echo loginbutton(); ?>
+        <?php //echo loginbutton(); ?>
       </div>
       <div class="">
-        <?php echo logoutbutton(); ?>
+        <?php //echo logoutbutton(); ?>
       </div>
     </div>-->
   </div></center>

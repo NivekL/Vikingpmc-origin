@@ -8,7 +8,7 @@
 	    <div class="container">
 	            <div class="row">
 	              <div class="col-lg-12 text-center applyTitleSection">
-	                <h2 class="applyHeading">Fill the form to sign up for the tournament</h2>
+	                <h2 class="applyHeading">SIGN UP FOR THE TOURNAMENT</h2>
 	            	</div>
 	            </div>
 	              <div class="row">

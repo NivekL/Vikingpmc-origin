@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="VIKING PMC is a ArmA 3 unit, focusing on semi-realism. Hosting joint operations and tournaments with prize pools."/>
-    <link rel="icon" href="images/vikingLogo.png" type="image/png" sizes="16x16">
+    <link rel="icon" href="images/VKN_LOGO_2017_icon.png" type="image/png" sizes="16x16">
     <link rel="canonical" href="https://www.vikingpmc.com" />
     <title>VIKING PMC</title>
 

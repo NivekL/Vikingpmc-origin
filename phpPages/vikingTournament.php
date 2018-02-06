@@ -1,12 +1,10 @@
 <div>
-  <?php include 'phpPages\sideNav\tournamentForm.php' ?>
+  <?php include 'sideNav/tournamentForm.php' ?>
   <div class="col-lg-12" id="infoBox">
-    <h2>INFORMATION</h2>
     <p>
-      <b>The VIKING tournament gives your group the chance to help the community and kick some butt!</b>
-      <br>
+      <b>The VIKING tournament gives your group the chance to help the community and kick some butt!</b><br>
       We all like the custom mission which our groups may play, but from time to time we love some PVP action!
-      We thought why not combine the 2 elements to create a dynamic milsim environment with some healthy competitiveness.
+      We thought why not combine the 2 elements to create a dynamic milsim environment with some healthy competitiveness.<br>
       That is exactly what we did! And we would love you to be part of it!
     </p>
   </div>
@@ -16,17 +14,15 @@
       <div class="col-lg-6">
         <h2>DETAILS</h2>
         <p>
-          * 8v8 - Team vs Team
+          Prize Pool
           <br>
-          * Custom made PvP maps
+          8v8 - Team vs Team
           <br>
-          * 8 teams battling it out
+          8 teams battling it out
           <br>
-          * First Person Locked
+          Custom made PvP maps
           <br>
-          * Prize Pool
-          <br>
-          * Twitch / Teamspeak / Hosted Servers
+          Twitch / Teamspeak / Hosted Servers
         </p>
       </div>
       <div class="col-lg-6">
@@ -35,7 +31,9 @@
           You’ll be needing four mods to be able to play. <i>CBA, ShackTac, CUP and TFAR</i>, that’s it!
           You’ll be able to find the maps and mods on our Steam collection.
           <br><br>
-          <u><a class="linkText" target="_blank" href="https://steamcommunity.com/sharedfiles/filedetails/?id=933455096">Download maps/mods here!</a></u><br>
+          <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=933455096" target="_blank">
+            <button id="btnReadMore" type="button" name="button">DOWNLOAD MODS/MAPS</button>
+          </a>
         </p>
       </div>
     </div>
@@ -45,10 +43,6 @@
   <div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mShelBULMO0"></iframe>
   </div>
-  <!--<iframe class="col-xs-12 col-lg-12 scoreboard" height="600"
-  src="https://widget.toornament.com/tournaments/471798638134181888/navigator?_locale=en_US&theme=light"
-  frameborder="0" scrolling="false" allowfullscreen="true">
-  </iframe>-->
   </div>
 
   <div class="center paddingTop">
